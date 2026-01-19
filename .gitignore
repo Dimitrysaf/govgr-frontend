@@ -24,3 +24,5 @@ release-notes-body
 # Project lockfile only
 package-lock.json
 !/package-lock.json
+
+.idx
