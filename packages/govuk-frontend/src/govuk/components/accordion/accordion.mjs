@@ -581,12 +581,12 @@ export class Accordion extends ConfigurableComponent {
    */
   static defaults = Object.freeze({
     i18n: {
-      hideAllSections: 'Hide all sections',
-      hideSection: 'Hide',
+      hideAllSections: 'Απόκρυψη όλων των ενοτήτων',
+      hideSection: 'Απόκρυψη',
       hideSectionAriaLabel: 'Hide this section',
-      showAllSections: 'Show all sections',
-      showSection: 'Show',
-      showSectionAriaLabel: 'Show this section'
+      showAllSections: 'Εμφάνιση όλων των ενοτήτων',
+      showSection: 'Εμφάνιση',
+      showSectionAriaLabel: 'Εμφάνιση αυτής της ενότητας'
     },
     rememberExpanded: true
   })
