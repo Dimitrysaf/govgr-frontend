@@ -406,10 +406,10 @@ export class ExitThisPage extends ConfigurableComponent {
    */
   static defaults = Object.freeze({
     i18n: {
-      activated: 'Loading.',
-      timedOut: 'Exit this page expired.',
-      pressTwoMoreTimes: 'Shift, press 2 more times to exit.',
-      pressOneMoreTime: 'Shift, press 1 more time to exit.'
+      activated: 'Φόρτωση.',
+      timedOut: 'Η προθεσμία για έξοδο από τη σελίδα έληξε.',
+      pressTwoMoreTimes: 'Shift, πατήστε άλλες 2 φορές για έξοδο.',
+      pressOneMoreTime: 'Shift, πατήστε άλλη 1 φορά για έξοδο.'
     }
   })
 

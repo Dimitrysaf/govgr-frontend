@@ -464,17 +464,17 @@ export class FileUpload extends ConfigurableComponent {
    */
   static defaults = Object.freeze({
     i18n: {
-      chooseFilesButton: 'Choose file',
-      dropInstruction: 'or drop file',
-      noFileChosen: 'No file chosen',
+      chooseFilesButton: 'Επιλογή αρχείου',
+      dropInstruction: 'ή ρίξτε το αρχείο εδώ',
+      noFileChosen: 'Δεν έχει επιλεγεί αρχείο',
       multipleFilesChosen: {
         // the 'one' string isn't used as the component displays the filename
         // instead, however it's here for coverage's sake
-        one: '%{count} file chosen',
-        other: '%{count} files chosen'
+        one: '%{count} αρχείο επιλέχθηκε',
+        other: '%{count} αρχεία επιλέχθηκαν'
       },
-      enteredDropZone: 'Entered drop zone',
-      leftDropZone: 'Left drop zone'
+      enteredDropZone: 'Είσοδος στην περιοχή μεταφόρτωσης',
+      leftDropZone: 'Έξοδος από την περιοχή μεταφόρτωσης'
     }
   })
 
