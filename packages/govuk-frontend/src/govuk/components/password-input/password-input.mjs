@@ -196,12 +196,12 @@ export class PasswordInput extends ConfigurableComponent {
    */
   static defaults = Object.freeze({
     i18n: {
-      showPassword: 'Show',
-      hidePassword: 'Hide',
-      showPasswordAriaLabel: 'Show password',
-      hidePasswordAriaLabel: 'Hide password',
-      passwordShownAnnouncement: 'Your password is visible',
-      passwordHiddenAnnouncement: 'Your password is hidden'
+      showPassword: 'Εμφάνιση',
+      hidePassword: 'Απόκρυψη',
+      showPasswordAriaLabel: 'Εμφάνιση κωδικού πρόσβασης',
+      hidePasswordAriaLabel: 'Απόκρυψη κωδικού πρόσβασης',
+      passwordShownAnnouncement: 'Ο κωδικός πρόσβασης είναι ορατός',
+      passwordHiddenAnnouncement: 'Ο κωδικός πρόσβασης είναι κρυμμένος'
     }
   })
 
