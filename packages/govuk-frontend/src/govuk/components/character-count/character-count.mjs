@@ -431,23 +431,23 @@ export class CharacterCount extends ConfigurableComponent {
     i18n: {
       // Characters
       charactersUnderLimit: {
-        one: 'You have %{count} character remaining',
-        other: 'You have %{count} characters remaining'
+        one: 'Έχετε %{count} εναπομείναντα χαρακτήρα',
+        other: 'Έχετε %{count} εναπομείναντες χαρακτήρες'
       },
-      charactersAtLimit: 'You have 0 characters remaining',
+      charactersAtLimit: 'Έχετε 0 εναπομείναντες χαρακτήρες',
       charactersOverLimit: {
-        one: 'You have %{count} character too many',
-        other: 'You have %{count} characters too many'
+        one: 'Έχετε %{count} χαρακτήρα παραπάνω',
+        other: 'Έχετε %{count} χαρακτήρες παραπάνω'
       },
       // Words
       wordsUnderLimit: {
-        one: 'You have %{count} word remaining',
-        other: 'You have %{count} words remaining'
+        one: 'Έχετε %{count} λέξη εναπομένουσα',
+        other: 'Έχετε %{count} λέξεις εναπομένουσες'
       },
-      wordsAtLimit: 'You have 0 words remaining',
+      wordsAtLimit: 'Έχετε 0 λέξεις εναπομένουσες',
       wordsOverLimit: {
-        one: 'You have %{count} word too many',
-        other: 'You have %{count} words too many'
+        one: 'Έχετε %{count} λέξη παραπάνω',
+        other: 'Έχετε %{count} λέξεις παραπάνω'
       },
       textareaDescription: {
         other: ''
