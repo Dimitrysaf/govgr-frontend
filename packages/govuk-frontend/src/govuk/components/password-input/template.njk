@@ -49,10 +49,10 @@
 {{ govukButton({
   type: "button",
   classes: "govuk-button--secondary govuk-password-input__toggle govuk-js-password-input-toggle" + (" " + params.button.classes if params.button.classes),
-  text: params.showPasswordText | default("Show"),
+  text: params.showPasswordText | default("Εμφάνιση"),
   attributes: {
     "aria-controls": id,
-    "aria-label": params.showPasswordAriaLabelText | default("Show password"),
+    "aria-label": params.showPasswordAriaLabelText | default("Εμφάνιση κωδικού πρόσβασης"),
     "hidden": {
       value: true,
       optional: true
